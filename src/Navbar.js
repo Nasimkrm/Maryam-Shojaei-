@@ -22,7 +22,7 @@ const Navbar = () => {
         
         <div className="icons-div">
         <a href="https://www.instagram.com/noor.skincare.mariya/"><img className="icons" src="./images/instagram.png" alt="" /></a>
-        <a href="www.google.com"><img className="icons" src="./images/telegramme.png" alt="" /></a>
+        <a href="https://t.me/noor_shojaee"><img className="icons" src="./images/telegramme.png" alt="" /></a>
         </div>
 
         

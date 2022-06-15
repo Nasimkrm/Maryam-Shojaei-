@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
+@import url(http://fonts.googleapis.com/earlyaccess/scheherazade.css);
+
+
+
+
 
 html {
   overflow-x: hidden;
 }
 
 body { overflow-x: hidden;
-  /* background-color: #ebebeb; */
+  
   color: #333;
+ 
 }
 
 * {
   margin: 0;
-  font-family: "Quicksand";
- 
+  font-size: 1rem;
+  font-family: 'IranianSansRegular';
   
 }
 
@@ -23,10 +29,7 @@ a {
 }
 
 .navbar-home {
-  /* position: absolute; */
   
-  /* margin-right: 30px; */
-  /* padding: 20px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,7 +61,7 @@ a {
   text-decoration: none;
   width: 150px;
   margin-top: 30px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 600;
   box-sizing: border-box;
   border: solid 2px transparent;
@@ -95,6 +98,7 @@ a {
   position: absolute;
   top: 55%;
   left: 35%;
+  font-family: "Quicksand";
   font-size: 4rem;
   text-align: center;
 }
@@ -104,6 +108,7 @@ a {
   top: 67%;
   left: 43%;
   text-align: center;
+  font-family: "Quicksand";
 }
 
 
@@ -132,6 +137,7 @@ a {
 .icons-footer {
   width: 20px;
   padding-right: 20px;
+  
 }
 
 
@@ -147,6 +153,7 @@ a {
   -webkit-box-shadow: 5px 5px 15px 0px #a1a1a1; 
 box-shadow: 5px 5px 15px 0px #a1a1a1;
 
+
 }
 
 .about {
@@ -161,17 +168,13 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
 
 
 header {
-
-  /* /* margin-top: 100px;
-  margin-bottom: 50px; */
-   
   text-align: right;
-  /* font-size: 1.5rem; */
+  
    
 }
 
 .home {
-  /* border-bottom: 2px solid white; */
+  
   background-color: #ebebeb;
 }
 
@@ -180,8 +183,8 @@ header {
 
   text-align: justify;
   direction: rtl;
-  font-size: 1.2rem;
-  line-height: 1.6;
+  /* font-size: 1.2rem; */
+  line-height: 1.9;
   margin: 10px 20px 0 0;
  width: 45%;
   display: flex;
@@ -190,19 +193,13 @@ header {
   text-justify: inter-word;
   justify-content: center;
   
-  
-  
-   
 }
-
-
-
-
 
 .name{
   
   text-align: right;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
 }
 
 
@@ -211,6 +208,7 @@ header {
   
   
   margin-top: 50px;
+  width: 100%;
   
 }
 
@@ -276,6 +274,7 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
 
 .links-title {
   text-align: center;
+  /* font-size: 1.3rem; */
   padding-top: 15px;
   padding-bottom: 30px;
 }
@@ -287,14 +286,14 @@ border: 2px solid;
 /* margin-right: 30px; */
 text-decoration: none;
 width: 120px;
-height: 30px;
+height: 35px;
 border-radius: 5px;
 display: flex;
 text-align: center;
 flex-direction: column;
 justify-content: center;
-font-size: 1.2rem;
-font-weight: 400;
+/* font-size: 1.2rem; */
+/* font-weight: 400; */
 transition: 0.3s ease-in-out;
 background-color: #d5eef8;
 color: #333;
@@ -315,15 +314,15 @@ margin: 25px;
   width: 100%;
   height: 50%;
   object-fit: cover;
-  border-radius: 10px;
+  
 
 }
 
 .card {
-
+  overflow: hidden;
   margin: 150px auto 50px;
-  width: 300px;
-  height:400px;
+  width: 350px;
+  height:500px;
   border-radius: 10px;
   background-color: white;
   border: 2px solid #333;
@@ -338,21 +337,16 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
   display: flex;
   padding:10px;
   justify-content: space-around;
-  font-size: 1.2rem;
-  
 }
 
 
 
 .card-text {
-  padding:5px;
-  font-size: 0.9rem;
+  padding:10px;
+  line-height: 1.2;
   text-align: center;
+ 
 }
-
-
-
-
 
 .info-pic {
   display: flex;
@@ -410,6 +404,7 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
   flex-direction: column;
   margin-left: auto;
   margin-top: 80px;
+  font-size: 1.2rem;
   
   
 }
@@ -436,7 +431,7 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
 box-shadow: 5px 5px 15px 0px #a1a1a1;
 }
 
-.candle {
+.waterDrop {
   width: 100%;
   
   height: 250px;
@@ -451,8 +446,9 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
   
 }
 
-.yoga-title {
+.page-title {
   
+  font-size: 1.6rem;
   position: absolute;
   top:200px;
   right: 200px;
@@ -463,7 +459,7 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
   width: 100%;
   height: 50%;
   object-fit: cover;
-  border-radius: 10px;
+  
 }
 
 .audio-div {
@@ -482,11 +478,6 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
 .icon-p {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  
-  margin-left: auto;
   
   margin:auto auto 15px auto;
 }
@@ -497,20 +488,14 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
 
 .facial-info {
   
-  
   text-align: right;
   direction: rtl;
-  font-size: 1.2rem;
   line-height: 1.6;
   text-justify: inter-word;
   width: 100%;
-  /* padding: 15px; */
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-top: 80px;
-  
-
+  margin:80px 0 0 auto ;
 }
 
 .health-img {
@@ -520,22 +505,10 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
   object-fit: cover;
 }
 
-.facial-title {
-  margin: 100px 80px 0 0;
-  position: absolute;
-  top: 130px;
-  right: 130px;
-  color: #EFEFEF;
-}
-
-
-
 .services {
   margin-top: 50px;
   text-align: right;
-  font-size: 1.2rem;
-  
-
+  line-height: 1.6rem;
 }
 
 
@@ -545,23 +518,42 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
   line-height: 1.6;
   display: flex;
   flex-direction: column;
-  font-size: 1rem;
-  
-  width: 80px;
-  margin-right: 50px;
-  margin-bottom: 50px;
+  margin:0 50px 50px 50px;
   padding: 15px;
 }
 
+.main-link {
+  font-size: 0.8rem;
+  padding: 5px;
+
+}
+
 .main-link:hover {
-  text-decoration: underline white;
+  color: white;
+  
+}
 
+.number {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+}
 
+.address {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.address-text {
+  font-size: 0.8rem;
 }
 
 .link-title {
   margin-bottom: 15px;
   border-bottom: white 2px solid;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-logo {
