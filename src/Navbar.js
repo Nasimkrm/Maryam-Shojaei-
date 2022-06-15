@@ -4,6 +4,8 @@ import {  Link } from "react-router-dom";
 const Navbar = () => {
     const match = useMatch("/")
     return ( 
+
+        
         
         <nav className={match ? "navbar-home" : "navbar"}>
         <Link to="/">

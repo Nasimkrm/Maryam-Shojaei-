@@ -15,7 +15,7 @@ const Home = () => {
 
            <div className="about">
             <div className="biography">
-            <img className="profilePic" src="./images/profilePic.jpeg" alt="" />
+            <img className="profilePic" src="./images/profilePic.jpeg" alt="maryam-shojaei" />
               
             
               <div className="description">
@@ -26,12 +26,10 @@ const Home = () => {
               
               
 
-              در سال ۱۳۹۹ کتاب دو زبانه  <b>عالمی نو </b> را تالیف و چاپ کرد. 
+              در سال ۱۳۹۹ کتاب دو زبانه <b>عالمی نو</b> را تالیف و چاپ کرد. 
              علاوه بر این  برگزار کننده ی دوره های بسیاری در قالب طبیعت گردی در استان‌های مختلف با همکاری خانم ملک زاده بوده است. 
              </p>
-            
-           
-             
+             <br />
             <p>   
       او معتقد است با مردم و کنار مردم است. هدف او انتقال آگاهی و حس خوب می باشد. هر بار با لبخند رضایتی که از رهجویان خود می بیند بیشتر متوجه عشقی که به کارش دارد می شود.
             </p>
@@ -42,7 +40,7 @@ const Home = () => {
         </div>
 
         <div className="card">
-        <img className="alemiNo" src="./images/alemiNoBook.jpeg" alt="" />
+        <img className="alemiNo" src="./images/alemiNoBook.jpeg" alt="alami-no" />
         <header className="card-header">
           
           <h4 className="card-title">عالمی نو</h4>
