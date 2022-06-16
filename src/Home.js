@@ -7,9 +7,12 @@ const Home = () => {
         <a href="www.google.com"><img className="icons" src="./images/telegramme.png" alt="" /></a>
       </div> */}
            
-           <img className="bgImage" src="./images/wallpaper3mo2.jpg" alt="vase" />
+           
+      <div className="header-cont">
            <h1 className="title">Maryam Shojaei</h1>
            <h3 className="subhead">Yoga - Meditation - Skincare</h3>
+           </div><img className="bgImage" src="./images/wallpaper3mo2.jpg" alt="vase" />
+           
 
 
 

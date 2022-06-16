@@ -4,9 +4,9 @@ const YogaMed = () => (
         <div className="img-cont">
         <img className="waterDrop" src="./images/waterDrop.jpg" alt="" />
         </div>
-        <header>
+        
             <h1 className="page-title"> یوگا و مدیتیشن  </h1>
-        </header>
+        
 
 
         <div className="border-div">
@@ -29,7 +29,7 @@ const YogaMed = () => (
         <div className="card">
         <img className="drop-img" src="./images/drop.jpg" alt="" />
         <header className="card-header">
-          <h4>عنوان: بازیابی خویشتن</h4>
+          <h4 className="card-title" >عنوان: بازیابی خویشتن</h4>
           <h4 className="card-title">دوره ی مراقبه</h4>
           
         </header>
