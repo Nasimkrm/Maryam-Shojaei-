@@ -2,7 +2,7 @@ const YogaMed = () => (
     <div className="info">
 
         <div className="img-cont">
-        <img className="waterDrop" src="./images/waterDrop.jpg" alt="" />
+        <img className="waterDrop" src="./images/waterDrop2.jpg" alt="" />
         </div>
         
             <h1 className="page-title"> یوگا و مدیتیشن  </h1>

@@ -3,7 +3,7 @@ const Facial = () => {
         <div className="facial">
 
         <div className="img-cont">
-            <img className="health-img" src="./images/health.jpg" alt="" />
+            <img className="health-img" src="./images/health2.jpg" alt="" />
         </div>
         <header> 
         <h1 className="page-title">خدمات پوستی</h1>

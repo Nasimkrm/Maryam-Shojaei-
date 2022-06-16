@@ -691,7 +691,9 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
   .profilePic {
   
     margin-top: 30px;
-    width: 300px;
+    max-width: 100%;
+    overflow: hidden;
+    /* width: 300px; */
     margin-bottom: 20px;
     border-radius: 10px;
     filter: grayscale();
