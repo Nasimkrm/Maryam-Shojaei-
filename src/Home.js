@@ -11,6 +11,11 @@ const Home = () => {
       <div className="header-cont">
            <h1 className="title">Maryam Shojaei</h1>
            <h3 className="subhead">Yoga - Meditation - Skincare</h3>
+
+           <div className="icons-div-home">
+        <a href="https://www.instagram.com/noor.skincare.mariya/"><img className="icons" src="./images/instagram.png" alt="" /></a>
+        <a href="https://t.me/noor_shojaee"><img className="icons" src="./images/telegram.png" alt="" /></a>
+        </div>
            </div><img className="bgImage" src="./images/wallpaper3mo2.jpg" alt="vase" />
            
 

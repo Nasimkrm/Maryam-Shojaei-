@@ -33,9 +33,9 @@ const Footer = () => {
 
         <div className="footer-bottom">
         <div className="icon-p">
-        <div className="icons-div">
+        <div className="icons-div-footer">
         <a href="https://www.instagram.com/noor.skincare.mariya/"><img className="icons-footer" src="./images/instagram.png" alt="" /></a>
-        <a href="www.google.com"><img className="icons-footer" src="./images/telegramme.png" alt="" /></a>
+        <a href="https://t.me/noor_shojaee"><img className="icons-footer" src="./images/telegram.png" alt="" /></a>
         
         
         </div>
