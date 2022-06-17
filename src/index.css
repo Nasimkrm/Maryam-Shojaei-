@@ -381,7 +381,7 @@ box-shadow: 5px 5px 15px 0px #a1a1a1;
 
 .card-text {
  padding:10;
-  line-height: 0.8;
+  line-height: 1;
   text-align: center;
 }
 
@@ -835,7 +835,7 @@ box-sizing: border-box;
 
     .address-text {
       
-     font-size: 0.7rem;
+     font-size: 0.5rem;
    }
 
    .link-title {
